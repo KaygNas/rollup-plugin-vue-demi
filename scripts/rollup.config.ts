@@ -22,7 +22,7 @@ const config = defineConfig({
   plugins: [esbuild()],
   external: [
     'vue-demi',
-    'rollup-plugin-vue',
+    'rollup-plugin-vue3',
     'rollup-plugin-vue2',
     'rollup',
     'fs',

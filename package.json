@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-vue-demi",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Rollup plugin for build vue sfc with vue-demi",
   "keywords": [
     "vue-demi",
@@ -36,7 +36,8 @@
   },
   "dependencies": {
     "rollup-plugin-vue2": "npm:rollup-plugin-vue@^5.1.9",
-    "rollup-plugin-vue3": "npm:rollup-plugin-vue@^6.0.0"
+    "rollup-plugin-vue3": "npm:rollup-plugin-vue@^6.0.0",
+    "vue-template-compiler": "^2.6.14"
   },
   "scripts": {
     "build": "rollup -c && tsc"
