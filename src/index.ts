@@ -15,6 +15,3 @@ export function vueDemi(options?: any): Plugin {
     },
   }
 }
-
-export * from 'vue-demi'
-export * from './utils'
