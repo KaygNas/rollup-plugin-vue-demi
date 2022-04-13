@@ -1,6 +1,5 @@
 import { isVue2 } from 'vue-demi'
-import vue3 from 'rollup-plugin-vue'
-// @ts-expect-error no type
+import vue3 from 'rollup-plugin-vue3'
 import vue2 from 'rollup-plugin-vue2'
 import type { Plugin } from 'rollup'
 
