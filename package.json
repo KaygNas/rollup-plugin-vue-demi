@@ -1,6 +1,7 @@
 {
   "name": "rollup-plugin-vue-demi",
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.3",
   "description": "Rollup plugin for build vue sfc with vue-demi",
   "keywords": [
     "vue-demi",
@@ -12,16 +13,19 @@
     "type": "git",
     "url": "https://github.com/KaygNas/rollup-plugin-vue-demi.git"
   },
-  "main": "./commonjs/index.js",
-  "module": "./es/index.js",
-  "types": "./index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/commonjs/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./es/index.js",
-      "require": "./commonjs/index.js",
-      "types": "./index.d.ts"
+      "import": "./dist/es/index.js",
+      "require": "./dist/commonjs/index.js",
+      "types": "./dist/index.d.ts"
     },
-    "./*": "./*"
+    "./*": "./dist/*"
   },
   "sideEffects": false,
   "homepage": "https://github.com/KaygNas/rollup-plugin-vue-demi",
