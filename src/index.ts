@@ -1,6 +1,6 @@
 import { isVue2 } from 'vue-demi'
-import vue3 from 'rollup-plugin-vue3'
-import vue2 from 'rollup-plugin-vue2'
+import vue3 from '@vitejs/plugin-vue'
+import vue2 from 'rollup-plugin-vue'
 import type { Plugin } from 'rollup'
 
 export function vueDemi(options?: any): Plugin {
