@@ -37,7 +37,8 @@
   "dependencies": {
     "rollup-plugin-vue2": "npm:rollup-plugin-vue@^5.1.9",
     "rollup-plugin-vue3": "npm:rollup-plugin-vue@^6.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "vue-runtime-helpers": "^1.1.2"
   },
   "scripts": {
     "build": "rollup -c && tsc"
