@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-vue-demi",
   "private": false,
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Rollup plugin for build vue sfc with vue-demi",
   "keywords": [
     "vue-demi",
